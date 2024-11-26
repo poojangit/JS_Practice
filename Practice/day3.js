@@ -1,3 +1,48 @@
+
+// Todo : -----------------DATA TYPES (Non-primitive)
+
+let person = {
+    pname : "Riya",
+    age : 26,
+    greet : function () {
+        console.log("Hello");
+    }
+}
+console.log(person.pname);
+console.log(person.greet());
+person.greet()
+
+
+let arr1 = ["1", 2, "Js"]
+console.log(arr1);
+console.log(arr1[1]);
+arr1[1] = "hi"
+console.log(arr1[1]);
+console.log(arr1);
+
+function add(a,b) {
+    return a+ b
+}
+console.log(add(1,2));
+
+
+let date = new Date()
+console.log(date);
+let Int = new Set([1,2,3,4])
+console.log(Int);
+console.log(Int.entries());
+console.log(Int.size);
+console.log(Int.keys())
+
+let userMapping = new Map()
+userMapping.set("name", "Pachuu")
+userMapping.set(1,"One")
+console.log(userMapping.get("name"));
+
+
+console.log("----------------------------------------------------");
+
+
 let first_name = "pooja"
 //& using let while declaring the variable is good practice.
 //& do not use var. because "var can be re-declared"
@@ -70,3 +115,4 @@ const profile = {
     fullName : "Pooja N G",
 }
 console.log(profile);
+
