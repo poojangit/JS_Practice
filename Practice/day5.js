@@ -71,31 +71,31 @@
 
 // ~~~~~~Strings~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-// let str1 = "Pooja"
-// let str2 = "   Preeth i"
-// console.log(str1.length == str2.length);
-// console.log(str1[0]);
-// let sentence = `This is a template literal ${str1}`
-// console.log(sentence);
-// console.log(typeof sentence);
+let str1 = "Pooja"
+let str2 = "   Preeth i"
+console.log(str1.length == str2.length);
+console.log(str1[0]);
+let sentence = `This is a template literal ${str1}`
+console.log(sentence);
+console.log(typeof sentence);
 
-// let product = {
-//     pName : "Pen",
-//     cost : 10
-// }
-// console.log("The cost of " + product.pName + " is " + product.cost + " Rupees");
-// let output = `The cost of ${product.pName} is\n${product.cost}\nRupees`
-// console.log(output );
-// console.log(output.length);
-// console.log(str1.toUpperCase());
-// console.log(str2.toLowerCase());
-// console.log(str2.trim());
-// console.log(str1.slice(1,4));
-// console.log(str1.concat(str2));
-// console.log(str1.replace("P", "O"));
-// console.log(str1.charAt(3))
+let product = {
+    pName : "Pen",
+    cost : 10
+}
+console.log("The cost of " + product.pName + " is " + product.cost + " Rupees");
+let output = `The cost of ${product.pName} is\n${product.cost}\nRupees`
+console.log(output );
+console.log(output.length);
+console.log(str1.toUpperCase());
+console.log(str2.toLowerCase());
+console.log(str2.trim());
+console.log(str1.slice(1,4));
+console.log(str1.concat(str2));
+console.log(str1.replace("P", "O"));
+console.log(str1.charAt(3))
 
-let userName = prompt("Enter your full name ")
+// let userName = prompt("Enter your full name ")
 
 let generatedUsername = `@${userName}${userName.length}`
 console.log(generatedUsername);
